@@ -5,7 +5,7 @@ try {
     useUnifiedTopology: true,
     useCreateIndex: true,
   });
-  console.log("Database Connected Successfully");
+  console.log("Connected to database successfully");
 } catch (err) {
-  console.log("Database Not Connected");
+  console.log("Unable to connect to the database");
 }

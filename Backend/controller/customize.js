@@ -20,7 +20,7 @@ class Customize {
   async uploadSlideImage(req, res) {
     let image = req.file.filename;
     if (!image) {
-      return res.json({ error: "All field required" });
+      return res.json({ error: "All fields required" });
     }
     try {
       let newCustomzie = new customizeModel({
