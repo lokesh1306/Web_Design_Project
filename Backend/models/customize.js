@@ -1,4 +1,4 @@
-ongoose = require("mongoose");
+const mongoose = require("mongoose");
 
 const customizeSchema = new mongoose.Schema(
   {
