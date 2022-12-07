@@ -49,7 +49,7 @@ const TableBody = ({ order }) => {
               {order.status}
             </span>
           )}
-          {order.status === "Processing" && (
+          {/* {order.status === "Processing" && (
             <span className="block text-yellow-600 rounded-full text-center text-xs px-2 font-semibold">
               {order.status}
             </span>
@@ -58,7 +58,7 @@ const TableBody = ({ order }) => {
             <span className="block text-blue-600 rounded-full text-center text-xs px-2 font-semibold">
               {order.status}
             </span>
-          )}
+          )} */}
           {order.status === "Delivered" && (
             <span className="block text-green-600 rounded-full text-center text-xs px-2 font-semibold">
               {order.status}
