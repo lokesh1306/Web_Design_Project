@@ -54,19 +54,13 @@ html {
   color: white;
   background-color: #000;
   text-align: center;
-  border-radius: 5px 5px 5px 5px;
   cursor: pointer;
   width: 50%;
+  border-radius: 5px;
 }
 
 .button:hover {
   background-color: #555;
-}
-
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 650px) {
@@ -74,4 +68,9 @@ a:link {
     width: 100%;
     display: block;
   }
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }

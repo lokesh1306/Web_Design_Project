@@ -12,6 +12,7 @@ import ProductByCategory from "./home/ProductByCategory";
 import CheckoutPage from "./order/CheckoutPage";
 import ContactForm from "./contactform/ContactForm";
 import About from "./about/About";
+import Why from "./home/Why";
 
 export {
   Home,
@@ -30,4 +31,5 @@ export {
   CheckoutPage,
   ContactForm,
   About,
+  Why,
 };

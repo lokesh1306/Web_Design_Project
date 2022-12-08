@@ -14,6 +14,7 @@ import {
 } from "./portal";
 import { DashboardAdmin, Categories, Products, Orders } from "./admin";
 import { UserProfile, UserOrders, SettingUser } from "./portal/dashboardUser";
+import './portal/bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

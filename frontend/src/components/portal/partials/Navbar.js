@@ -70,12 +70,43 @@ const Navbar = (props) => {
             >
               Home
             </span>
-            <span
-              className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
-              onClick={(e) => history.push("/contact-us")}
-            >
-              Contact us
-            </span>
+            <div
+            className="userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative"
+            title="Logout"
+          >
+            <div className="userDropdown absolute right-0 mt-1 bg-gray-200 rounded">
+              <li className="flex flex-col text-gray-700">
+                <span
+                  onClick={(e) => history.push("/")}
+                  className="flex space-x-1 py-2 px-8 hover:bg-gray-400 cursor-pointer"
+                >
+                  <span>Shop</span>
+                </span>
+                <span
+                  onClick={(e) => logout()}
+                  className="flex space-x-1 py-2 px-8 hover:bg-gray-400 cursor-pointer"
+                >
+                  <span>
+                    <svg
+                      className="w-6 h-6"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                      />
+                    </svg>
+                  </span>
+                  <span>Logout</span>
+                </span>
+              </li>
+            </div>
+          </div>
           </div>
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
