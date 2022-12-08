@@ -40,7 +40,7 @@ const SellTable = () => {
               <th className="px-4 py-2 border">Products</th>
               <th className="px-4 py-2 border">Image</th>
               <th className="px-4 py-2 border">Status</th>
-              <th className="px-4 py-2 border">Order Address</th>
+              <th className="px-4 py-2 border">Order Notes</th>
               <th className="px-4 py-2 border">Ordered at</th>
             </tr>
           </thead>

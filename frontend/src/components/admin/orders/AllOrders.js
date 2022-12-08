@@ -48,7 +48,7 @@ const AllCategory = (props) => {
               <th className="px-4 py-2 border">Customer</th>
               <th className="px-4 py-2 border">Email</th>
               <th className="px-4 py-2 border">Phone</th>
-              <th className="px-4 py-2 border">Address</th>
+              <th className="px-4 py-2 border">Order Notes</th>
               <th className="px-4 py-2 border">Created at</th>
               <th className="px-4 py-2 border">Updated at</th>
               <th className="px-4 py-2 border">Actions</th>

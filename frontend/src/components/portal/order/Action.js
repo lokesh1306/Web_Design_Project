@@ -41,7 +41,7 @@ export const pay = async (
 ) => {
   console.log(state);
   if (!state.address) {
-    setState({ ...state, error: "Please provide your address" });
+    setState({ ...state, error: "Please provide your order notes" });
   } else if (!state.phone) {
     setState({ ...state, error: "Please provide your phone number" });
   } else {

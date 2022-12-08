@@ -30,7 +30,7 @@ const Navbar = (props) => {
   return (
     <Fragment>
       {/* Navbar Section */}
-      <nav className="fixed top-0 w-full z-20 shadow-lg lg:shadow-none bg-white">
+      <nav className="fixed top-0 w-full z-10 shadow-md bg-white">
         <div className="m-4 md:mx-12 md:my-6 grid grid-cols-4 lg:grid-cols-3">
         <div className="col-span-2 lg:hidden flex justify-items-stretch	 items-center">
             <svg
@@ -382,6 +382,7 @@ const Navbar = (props) => {
           </div>
         </div>
       </nav>
+      &nbsp;
       {/* End Navbar Section */}
     </Fragment>
   );
