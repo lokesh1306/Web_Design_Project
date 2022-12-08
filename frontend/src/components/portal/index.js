@@ -13,6 +13,7 @@ import CheckoutPage from "./order/CheckoutPage";
 import ContactForm from "./contactform/ContactForm";
 import About from "./about/About";
 import Why from "./home/Why";
+import Reviews from "./home/Reviews";
 
 export {
   Home,
@@ -32,4 +33,5 @@ export {
   ContactForm,
   About,
   Why,
+  Reviews,
 };

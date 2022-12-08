@@ -5,6 +5,7 @@ import ProductCategory from "./ProductCategory";
 import { homeState, homeReducer } from "./HomeContext";
 import SingleProduct from "./SingleProduct";
 import Why from "./Why";
+import Reviews from "./Reviews";
 
 export const HomeContext = createContext();
 
@@ -22,6 +23,9 @@ const HomeComponent = () => {
       </section>
       <section className="Accordian">
         <Why />
+      </section>
+      <section className="Reviews">
+        <Reviews />
       </section>
     </Fragment>
   );
