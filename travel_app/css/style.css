@@ -1,0 +1,106 @@
+body {
+    font-size:16px;
+    color:#808080;
+    line-height:28px;
+    font-weight:400;
+    background:#ffffff;
+    font-family: 'Work Sans', sans-serif;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+    @media (min-width:1200px) {
+    .container {
+      max-width: 1170px;
+      padding: 0px 15px;
+    }
+  }
+  
+  .large-container{
+    max-width: 1450px;
+    padding: 0px 15px;
+    margin: 0 auto;
+  }
+  
+  .container-fluid{
+    padding: 0px;
+  }
+  
+  .auto-container{
+    position:static;
+    max-width:1200px;
+    padding:0px 15px;
+    margin:0 auto;
+  }
+  
+  .small-container{
+    max-width:680px;
+    margin:0 auto;
+  }
+  
+  .boxed_wrapper{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden !important;
+    width: 100%;
+    min-width: 300px;
+  }
+  
+  
+  a{
+    text-decoration:none;
+    transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -webkit-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+  }
+  
+  a:hover{
+    text-decoration:none;
+    outline:none;
+  }
+  
+  input,button,select,textarea{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  ul,li{
+    list-style:none;
+    padding:0px;
+    margin:0px; 
+  }
+  
+  input{
+    transition: all 500ms ease;
+  }
+  
+  button:focus,
+  input:focus,
+  textarea:focus{
+    outline: none;
+    box-shadow: none;
+    transition: all 500ms ease;
+  }
+  
+  p{
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: #808080;
+    font-weight: 400;
+    margin: 0px;
+    transition: all 500ms ease;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    position:relative;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #061a3a;
+    margin: 0px;
+    transition: all 500ms ease;
+  }
