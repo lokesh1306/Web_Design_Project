@@ -227,7 +227,7 @@ const Navbar = (props) => {
                                 />
                               </svg>
                             </span>
-                            <span>Setting</span>
+                            <span>Settings</span>
                           </span>
                           <span
                             onClick={(e) => logout()}
