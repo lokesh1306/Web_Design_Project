@@ -25,3 +25,8 @@
     background: #b7791f;
     cursor: pointer;
   }  
+  .header-style {
+    width: 97.5%;
+    padding-left: 5px;
+    margin-bottom: 50px;
+  }

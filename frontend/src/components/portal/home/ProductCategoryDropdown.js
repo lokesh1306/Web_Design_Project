@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import { HomeContext } from "./index";
+import { HomeContext } from "../packages/Packages";
 import { getAllCategory } from "../../admin/categories/FetchApi";
 import { getAllProduct, productByPrice } from "../../admin/products/FetchApi";
 import "./style.css";

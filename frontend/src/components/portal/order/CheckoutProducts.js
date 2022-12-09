@@ -75,9 +75,9 @@ export const CheckoutComponent = (props) => {
                   ) : (
                     ""
                   )}
-                  {/* <div className="flex flex-col py-2">
+                  <div className="flex flex-col py-2">
                     <label htmlFor="address" className="pb-2">
-                      Dalivery Address
+                      Order Notes
                     </label>
                     <input
                       value={state.address}
@@ -91,12 +91,12 @@ export const CheckoutComponent = (props) => {
                       type="text"
                       id="address"
                       className="border px-4 py-2"
-                      placeholder="Address..."
+                      placeholder="Enter your order notes here"
                     />
-                  </div> */}
+                  </div>
                   <div className="flex flex-col py-2 mb-2">
                     <label htmlFor="phone" className="pb-2">
-                      Phone Number
+                      Phone
                     </label>
                     <input
                       value={state.phone}
@@ -110,15 +110,12 @@ export const CheckoutComponent = (props) => {
                       type="number"
                       id="phone"
                       className="border px-4 py-2"
-                      placeholder="+1 "
+                      placeholder="+1"
                     />
                   </div>
                   <DropIn
                     options={{
                       authorization: state.clientToken,
-                      // paypal: {
-                      //   flow: "vault",
-                      // },
                     }}
                     onInstance={(instance) => (state.instance = instance)}
                   />
