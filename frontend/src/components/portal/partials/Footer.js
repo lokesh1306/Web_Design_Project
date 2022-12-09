@@ -47,7 +47,7 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Packages</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='../packages/Packages.js' className='text-reset'>
                   Package 1
                 </a>
               </p>
