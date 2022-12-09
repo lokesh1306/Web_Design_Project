@@ -47,8 +47,13 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Packages</h6>
               <p>
+<<<<<<< HEAD
                 <a href='./products/category/63936b563c96264d8767f114' className='text-reset'>
                   Boston Packages
+=======
+                <a href='../packages/Packages.js' className='text-reset'>
+                  Package 1
+>>>>>>> origin/main
                 </a>
               </p>
               <p>
