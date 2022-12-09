@@ -46,9 +46,9 @@ const AboutComponent = (props) => {
     <img src={require('./image3.jpeg')} alt="Mike" />
       <div className="container">
       <br />
-        <h2>John Doe</h2>
+        <h2>Shyla Mugugue</h2>
         <p className="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Structure is everything in a organisation. When we think structure, we think design. When we at Boston Travels think of design, the only name that comes to mind is Shyla. </p>
         <p></p>
         <p align="center"><button className="button"><a href="mailto:email@example.com">Contact</a></button></p>
       </div>
