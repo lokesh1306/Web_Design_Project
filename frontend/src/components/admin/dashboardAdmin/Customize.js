@@ -114,7 +114,7 @@ const UploadImageSection = () => {
         </span>
         <AllImages /> */}
       {/* </div> */}
-      <AllImages />
+      {/* <AllImages /> */}
     </Fragment>
   );
 };
