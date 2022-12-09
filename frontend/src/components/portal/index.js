@@ -14,6 +14,7 @@ import ContactForm from "./contactform/ContactForm";
 import About from "./about/About";
 import Why from "./home/Why";
 import Reviews from "./home/Reviews";
+import Carousel from "./home/Carousel";
 
 export {
   Home,
@@ -34,4 +35,5 @@ export {
   About,
   Why,
   Reviews,
+  Carousel,
 };

@@ -6,13 +6,14 @@ import { homeState, homeReducer } from "./HomeContext";
 import SingleProduct from "./SingleProduct";
 import Why from "./Why";
 import Reviews from "./Reviews";
+import Carousel from "./Carousel";
 
 export const HomeContext = createContext();
 
 const HomeComponent = () => {
   return (
     <Fragment>
-      <Slider />
+      <Carousel />
       {/* Category, Search & Filter Section */}
       <section className="m-4 md:mx-8 md:my-6">
         <ProductCategory />

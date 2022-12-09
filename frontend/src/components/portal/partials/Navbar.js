@@ -70,11 +70,17 @@ const Navbar = (props) => {
             >
               Home
             </span>
+            <span
+              className="userDropdownBtn hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+              onClick={(e) => window.location = "http://127.0.0.1:5500/frontent/HTML/index.html"}
+            >
+              Home
+            </span>
             <div
             className="userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative"
-            title="Logout"
           >
             <div className="userDropdown absolute right-0 mt-1 bg-gray-200 rounded">
+            Shop
               <li className="flex flex-col text-gray-700">
                 <span
                   onClick={(e) => history.push("/")}
