@@ -8,7 +8,7 @@ const AboutComponent = (props) => {
     <div className="flex flex-col items-center justify-center my-16">
       
         <div className="about-section">
-  <h1>About Us Page</h1>
+  <h1>About Us</h1>
   <p>We help you design your holidays and trips. </p>
  
 </div>
