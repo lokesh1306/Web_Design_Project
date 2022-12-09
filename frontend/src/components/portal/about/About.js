@@ -12,9 +12,7 @@ const AboutComponent = (props) => {
   <p>We help you design your holidays and trips. </p>
  
 </div>
-<br><br>
-</br>
-</br>
+
 <h2>Our Team</h2>
 <div className="row">
   <div className="column">
