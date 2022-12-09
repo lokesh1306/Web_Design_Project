@@ -19,7 +19,7 @@ const AboutComponent = (props) => {
           <img src={require('./image2.jpeg')} alt="Mike" />
       <div className="container">
       <br />
-        <h2>Jane Doe</h2>
+        <h2>Joseph Nathan</h2>
         <p className="title">CEO & Founder</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
         <p></p>
