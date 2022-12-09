@@ -1,7 +1,5 @@
 import React, { Fragment, createContext, useReducer } from "react";
 import Layout from "../layout";
-import Slider from "./Slider";
-import ProductCategory from "./ProductCategory";
 import { homeState, homeReducer } from "./HomeContext";
 import SingleProduct from "./SingleProduct";
 import Why from "./Why";
@@ -14,20 +12,18 @@ const HomeComponent = () => {
   return (
     <Fragment>
       <Carousel />
-      {/* Category, Search & Filter Section */}
-      <section className="m-4 md:mx-8 md:my-6">
-        <ProductCategory />
-      </section>
-      {/* Product Section */}
+      <br />
+     <h3 className="mb-4"><center>Our Packages</center></h3>
       <section className="m-4 md:mx-8 md:my-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <SingleProduct />
-      </section>
+      </section>  
       <section className="Accordian">
         <Why />
       </section>
       <section className="Reviews">
         <Reviews />
       </section>
+      
     </Fragment>
   );
 };
@@ -36,6 +32,7 @@ const Home = (props) => {
   const [data, dispatch] = useReducer(homeReducer, homeState);
   return (
     <Fragment>
+      
       <HomeContext.Provider value={{ data, dispatch }}>
         <Layout children={<HomeComponent />} />
       </HomeContext.Provider>

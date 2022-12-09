@@ -5,7 +5,7 @@ import "./style.css";
 function Why() {
   return (
     <div className="flex flex-col items-center justify-center my-16">
-  <h1>Why Us?</h1>
+  <h3 className="mb-4">Why Us?</h3>
     <Accordion defaultActiveKey={['0']} className="header-style">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Accordion Item #1</Accordion.Header>

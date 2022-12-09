@@ -15,6 +15,7 @@ import {
 import { DashboardAdmin, Categories, Products, Orders } from "./admin";
 import { UserProfile, UserOrders, SettingUser } from "./portal/dashboardUser";
 import './portal/bootstrap/dist/css/bootstrap.min.css';
+import Packages from "./portal/packages/Packages";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -28,6 +29,7 @@ const Routes = (props) => {
         <Route exact path="/wish-list" component={WishList} />
         <Route exact path="/contact" component={ContactForm} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/packages" component={Packages} />
         <Route exact path="/products/:id" component={ProductDetails} />
         <Route path="/privacy-policy" render={() => window.location = "http://127.0.0.1:5500/src/Travio/index.html"} />
         <Route

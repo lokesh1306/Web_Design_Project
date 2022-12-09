@@ -31,6 +31,12 @@ html {
   background-color: #474e5d;
   color: white;
 }
+.packages-section {
+  padding: 0 575px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
 
 .container {
   padding: 0 16px;

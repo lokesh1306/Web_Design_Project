@@ -1,10 +1,30 @@
-import React, { Fragment, useContext } from "react";
+import React, { Fragment, useContext,useEffect } from "react";
 import ProductCategoryDropdown from "./ProductCategoryDropdown";
-import { HomeContext } from "./index";
+import { HomeContext } from "../packages/Packages";
 
 const ProductCategory = (props) => {
   const { data, dispatch } = useContext(HomeContext);
 
+  useEffect(() => {
+    fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const fetchData = async () => {
+    dispatch({ type: "categoryListDropdown",
+    payload: !data.categoryListDropdown, });
+    // try {
+    //   let responseData = await getAllProduct();
+    //   setTimeout(() => {
+    //     if (responseData && responseData.Products) {
+    //       dispatch({ type: "setProducts", payload: responseData.Products });
+    //       dispatch({ type: "loading", payload: false });
+    //     }
+    //   }, 500);
+    // } catch (error) {
+    //   console.log(error);
+    // }
+  };
   return (
     <Fragment>
       <div className="flex justify-between font-medium">
@@ -20,9 +40,11 @@ const ProductCategory = (props) => {
           }`}
         >
           <span className="text-md md:text-lg hover:text-yellow-700">
-            Categories
+          <div className="packages-section">
+      <h3>Select a category</h3>
+    </div>
           </span>
-          <svg
+          {/* <svg
             className="w-4 h-4 text-yellow-700"
             fill="none"
             stroke="currentColor"
@@ -35,7 +57,7 @@ const ProductCategory = (props) => {
               strokeWidth="2"
               d="M19 9l-7 7-7-7"
             ></path>
-          </svg>
+          </svg> */}
         </div>
         <div className="flex space-x-2">
           <div
@@ -49,9 +71,9 @@ const ProductCategory = (props) => {
               data.filterListDropdown ? "text-yellow-700" : ""
             }`}
           >
-            <span className="text-md md:text-lg">Filter</span>
+            {/* <span className="text-md md:text-lg">Filter</span> */}
             <span>
-              <svg
+              {/* <svg
                 className="w-4 h-4 text-gray-700 text-yellow-700"
                 fill="none"
                 stroke="currentColor"
@@ -64,10 +86,10 @@ const ProductCategory = (props) => {
                   strokeWidth="2"
                   d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
                 ></path>
-              </svg>
+              </svg> */}
             </span>
           </div>
-          <span>/</span>
+          {/* <span>/</span> */}
           <div
             onClick={(e) =>
               dispatch({
@@ -79,8 +101,8 @@ const ProductCategory = (props) => {
               data.searchDropdown ? "text-yellow-700" : ""
             }`}
           >
-            <span className="text-md md:text-lg">Search</span>
-            <span>
+            {/* <span className="text-md md:text-lg">Search</span> */}
+            {/* <span>
               <svg
                 className="w-4 h-4 text-gray-700 text-yellow-700"
                 fill="none"
@@ -95,7 +117,7 @@ const ProductCategory = (props) => {
                   d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                 ></path>
               </svg>
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

@@ -15,6 +15,7 @@ import About from "./about/About";
 import Why from "./home/Why";
 import Reviews from "./home/Reviews";
 import Carousel from "./home/Carousel";
+import Packages from "./packages/Packages";
 
 export {
   Home,
@@ -36,4 +37,5 @@ export {
   Why,
   Reviews,
   Carousel,
+  Packages,
 };
