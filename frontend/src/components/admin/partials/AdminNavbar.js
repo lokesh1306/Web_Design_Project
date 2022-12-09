@@ -25,7 +25,28 @@ const AdminNavbar = (props) => {
           >
             Boston Travels
           </span>
+          
         </div>
+        <div className="hidden lg:block col-span-1 flex text-gray-600 mt-1">
+            <span
+              className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+              onClick={(e) => window.location = "/"}
+            >
+              Home
+            </span>
+            <span onClick={(e) => history.push("/packages")}
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+                          >
+                           Packages </span>
+            <span onClick={(e) => history.push("/contact")}
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+                          >
+                           Contact </span>
+            <span onClick={(e) => history.push("/about")}
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+                          >
+                           About </span>
+          </div>
         {/* Small Screen Show */}
         <div className="lg:hidden flex items-center">
          
@@ -39,38 +60,7 @@ const AdminNavbar = (props) => {
         </div>
         {/* Both Screen show */}
         <div className="flex items-center">
-          <div className="hover:bg-gray-200 rounded-lg p-2" title="Search">
-            <svg
-              className="cursor-pointer w-8 h-8 text-gray-600 hover:text-gray-800"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-              />
-            </svg>
-          </div>
-          <div className="hover:bg-gray-200 rounded-lg p-2" title="Search">
-            <svg
-              className="cursor-pointer w-8 h-8 text-gray-600 hover:text-gray-800"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-          </div>
+          
           {/* Logout Button Dropdown */}
           <div
             className="userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative"
@@ -112,7 +102,7 @@ const AdminNavbar = (props) => {
                       />
                     </svg>
                   </span>
-                  <span>Shop</span>
+                  <span>Home</span>
                 </span>
                 <span
                   onClick={(e) => logout()}

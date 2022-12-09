@@ -750,7 +750,7 @@ img {
   font-family: 'Work Sans', sans-serif;
   font-weight:500;
   opacity:1;
-  color: #fff;
+  color: #000;
   z-index:1;
   -webkit-transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -1218,7 +1218,7 @@ img {
   width: 24px;
   text-align: center;
   font-size: 16px;
-  color: #ffffff;
+  color: #000;
   cursor: pointer;
   z-index: 10;
   -webkit-transition:all 0.9s ease;
@@ -1268,7 +1268,7 @@ img {
   padding: 10px 25px;
   font-size: 15px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000;
   text-transform: uppercase;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -1310,7 +1310,7 @@ img {
   text-align:center;
   font-size:16px;
   line-height:32px;
-  color:#ffffff;
+  color:#000;
   background:rgba(255,255,255,0.10);
   cursor:pointer;
   border-radius:2px;
@@ -1323,7 +1323,7 @@ img {
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn.open{
-  color: #ffffff;
+  color: #000;
   -webkit-transform:rotate(90deg);
   -ms-transform:rotate(90deg);
   transform:rotate(90deg);  
@@ -1350,7 +1350,7 @@ img {
   position:relative;
   line-height:32px;
   font-size:16px;
-  color:#ffffff;
+  color:#000;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -1374,7 +1374,7 @@ div#mCSB_1_container{
 .mobile-menu .contact-info h4 {
   position: relative;
   font-size: 20px;
-  color: #ffffff;
+  color: #000;
   font-weight: 700;
   margin-bottom: 20px;
 }
