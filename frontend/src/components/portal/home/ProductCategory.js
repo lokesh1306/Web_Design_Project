@@ -41,7 +41,7 @@ const ProductCategory = (props) => {
         >
           <span className="text-md md:text-lg hover:text-yellow-700">
           <div className="packages-section">
-      <h3>Select a category</h3>
+      <h1>Select a category</h1>
     </div>
           </span>
           {/* <svg

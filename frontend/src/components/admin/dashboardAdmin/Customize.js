@@ -53,9 +53,9 @@ const UploadImageSection = () => {
 
   return (
     <Fragment>
-      <div className="relative m-4 bg-white p-4 shadow-lg">
-        <h1 className="border-b-2 border-yellow-700 mb-4 pb-2 text-2xl font-semibold">
-          Shop Slider Images
+      {/* <div className="relative m-4 bg-white p-4 shadow-lg"> */}
+        {/* <h1 className="border-b-2 border-yellow-700 mb-4 pb-2 text-2xl font-semibold">
+          Home Slider Images
         </h1>
         <div className="relative flex flex-col space-y-2">
           <div
@@ -112,8 +112,8 @@ const UploadImageSection = () => {
             />
           </svg>
         </span>
-        <AllImages />
-      </div>
+        <AllImages /> */}
+      {/* </div> */}
     </Fragment>
   );
 };
