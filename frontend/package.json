@@ -17,11 +17,6 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-<<<<<<< HEAD
-    "react-scripts": "^3.4.1",
-=======
->>>>>>> 54d53a252f69b7afe19c8a2c8c061a63d6100b59
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "sweetalert2": "^11.6.15",
