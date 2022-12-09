@@ -10,6 +10,13 @@ import PageNotFound from "./layout/PageNotFound";
 import ProductDetails from "./productDetails";
 import ProductByCategory from "./home/ProductByCategory";
 import CheckoutPage from "./order/CheckoutPage";
+import ContactForm from "./contactform/ContactForm";
+import About from "./about/About";
+import Why from "./home/Why";
+import Reviews from "./home/Reviews";
+import Carousel from "./home/Carousel";
+import Packages from "./packages/Packages";
+import Faq from "./home/faq";
 
 export {
   Home,
@@ -26,4 +33,11 @@ export {
   ProductDetails,
   ProductByCategory,
   CheckoutPage,
+  ContactForm,
+  About,
+  Why,
+  Reviews,
+  Carousel,
+  Packages,
+  Faq,
 };

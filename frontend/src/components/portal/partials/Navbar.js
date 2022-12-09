@@ -6,14 +6,14 @@ import { logout } from "./Action";
 import { LayoutContext } from "../index";
 import { isAdmin } from "../auth/fetchApi";
 
-const Navber = (props) => {
+const Navbar = (props) => {
   const history = useHistory();
   const location = useLocation();
 
   const { data, dispatch } = useContext(LayoutContext);
 
-  const navberToggleOpen = () =>
-    data.navberHamburger
+  const navbarToggleOpen = () =>
+    data.navbarHamburger
       ? dispatch({ type: "hamburgerToggle", payload: false })
       : dispatch({ type: "hamburgerToggle", payload: true });
 
@@ -29,12 +29,12 @@ const Navber = (props) => {
 
   return (
     <Fragment>
-      {/* Navber Section */}
-      <nav className="fixed top-0 w-full z-20 shadow-lg lg:shadow-none bg-white">
+      {/* Navbar Section */}
+      <nav className="fixed top-0 w-full z-10 shadow-md bg-white">
         <div className="m-4 md:mx-12 md:my-6 grid grid-cols-4 lg:grid-cols-3">
         <div className="col-span-2 lg:hidden flex justify-items-stretch	 items-center">
             <svg
-              onClick={(e) => navberToggleOpen()}
+              onClick={(e) => navbarToggleOpen()}
               className="col-span-1 lg:hidden w-8 h-8 cursor-pointer text-gray-600"
               fill="none"
               stroke="currentColor"
@@ -70,13 +70,21 @@ const Navber = (props) => {
             >
               Home
             </span>
-            <span
-              className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
-              onClick={(e) => history.push("/contact-us")}
-            >
-              Contact us
-            </span>
+            <span onClick={(e) => history.push("/packages")}
+                            className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+                          >
+                           Packages </span>
+            <span onClick={(e) => history.push("/contact")}
+                            className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+                          >
+                           Contact </span>
+            <span onClick={(e) => history.push("/about")}
+                            className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+                          >
+                           About </span>
           </div>
+          
+          
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
             <div
@@ -355,7 +363,7 @@ const Navber = (props) => {
         </div>
         <div
           className={
-            data.navberHamburger && data.navberHamburger
+            data.navbarHamburger && data.navbarHamburger
               ? "px-1 pb-2 md:pb-0 md:px-10 lg:hidden"
               : "hidden px-1 pb-2 md:pb-0 md:px-10 lg:hidden"
           }
@@ -382,9 +390,10 @@ const Navber = (props) => {
           </div>
         </div>
       </nav>
-      {/* End Navber Section */}
+      &nbsp;
+      {/* End Navbar Section */}
     </Fragment>
   );
 };
 
-export default Navber;
+export default Navbar;
