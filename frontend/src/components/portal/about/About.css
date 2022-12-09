@@ -80,3 +80,10 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
+.imag {
+   float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
