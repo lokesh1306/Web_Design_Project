@@ -21,7 +21,7 @@ const AboutComponent = (props) => {
       <br />
         <h2>Joseph Nathan</h2>
         <p className="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Having previously worked on various travel companies, Joseph decided to use his knowledge in the domain to make a website to make the process simpler and cheaper.</p>
         <p></p>
         <p align="center"><button className="button"><a href="mailto:email@example.com">Contact</a></button></p>
       </div>
