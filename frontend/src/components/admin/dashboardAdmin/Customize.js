@@ -1,6 +1,6 @@
 import React, { Fragment, useContext, useEffect } from "react";
 import { DashboardContext } from "./";
-import { uploadImage, sliderImages, deleteImage } from "./Action";
+import { sliderImages, deleteImage } from "./Action";
 
 const apiURL = process.env.REACT_APP_API_URL;
 
@@ -45,11 +45,11 @@ const Customize = () => {
 };
 
 const UploadImageSection = () => {
-  const { data, dispatch } = useContext(DashboardContext);
+  // const { dispatch } = useContext(DashboardContext);
 
-  const uploadImageHandler = (image) => {
-    uploadImage(image, dispatch);
-  };
+  // const uploadImageHandler = (image) => {
+  //   uploadImage(image, dispatch);
+  // };
 
   return (
     <Fragment>
@@ -114,6 +114,7 @@ const UploadImageSection = () => {
         </span>
         <AllImages /> */}
       {/* </div> */}
+      <AllImages />
     </Fragment>
   );
 };
@@ -187,7 +188,6 @@ const AllImages = () => {
           })
         ) : (
           <div className="col-span-1 md:col-span-2 lg:col-span-3 text-center text-xl font-light w-full bg-orange-200 rounded py-2">
-            No slide image found
           </div>
         )}
       </div>
