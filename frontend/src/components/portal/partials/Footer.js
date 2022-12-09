@@ -49,23 +49,23 @@ https://www.instagram.com/' className='me-4 text-reset'>
               <h6 className='text-uppercase fw-bold mb-4'>Packages</h6>
               <p>
 
-                <a href='./products/category/63936b563c96264d8767f114' className='text-reset'>
+                <a href='/products/category/63936b563c96264d8767f114' className='text-reset'>
                   Boston Packages
                   
                 </a>
               </p>
               <p>
-                <a href='./products/category/639369233c96264d8767f0fd' className='text-reset'>
+                <a href='/products/category/639369233c96264d8767f0fd' className='text-reset'>
                   Vacation Packages
                 </a>
               </p>
               <p>
-                <a href='./products/category/639367943c96264d8767f0f9' className='text-reset'>
+                <a href='/products/category/639367943c96264d8767f0f9' className='text-reset'>
                    Visit Qatar 
                 </a>
               </p>
                <p>
-                <a href='./products/category/639365f63c96264d8767f0e4' className='text-reset'>
+                <a href='/products/category/639365f63c96264d8767f0e4' className='text-reset'>
                   Family Packages
                 </a>
               </p> 
@@ -74,13 +74,18 @@ https://www.instagram.com/' className='me-4 text-reset'>
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='../about' className='text-reset'>
+                <a href='/about' className='text-reset'>
                   About Us
                 </a>
               </p>
               <p>
-                <a href='../contact' className='text-reset'>
+                <a href='/contact' className='text-reset'>
                   Contact
+                </a>
+              </p>
+              <p>
+                <a href='/faq' className='text-reset'>
+                  FAQ
                 </a>
               </p>
               {/* <p>
@@ -117,10 +122,8 @@ https://www.instagram.com/' className='me-4 text-reset'>
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
+        © 2022 Copyright Boston Travels
+        
       </div>
     </MDBFooter>
   );
