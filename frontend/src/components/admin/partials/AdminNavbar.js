@@ -25,7 +25,28 @@ const AdminNavbar = (props) => {
           >
             Boston Travels
           </span>
+          
         </div>
+        <div className="hidden lg:block col-span-1 flex text-gray-600 mt-1">
+            <span
+              className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+              onClick={(e) => window.location = "/"}
+            >
+              Home
+            </span>
+            <span onClick={(e) => history.push("/packages")}
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+                          >
+                           Packages </span>
+            <span onClick={(e) => history.push("/contact")}
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+                          >
+                           Contact </span>
+            <span onClick={(e) => history.push("/about")}
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+                          >
+                           About </span>
+          </div>
         {/* Small Screen Show */}
         <div className="lg:hidden flex items-center">
          
@@ -112,7 +133,7 @@ const AdminNavbar = (props) => {
                       />
                     </svg>
                   </span>
-                  <span>Shop</span>
+                  <span>Home</span>
                 </span>
                 <span
                   onClick={(e) => logout()}

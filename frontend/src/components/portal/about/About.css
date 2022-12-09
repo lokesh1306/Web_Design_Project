@@ -32,7 +32,13 @@ html {
   color: white;
 }
 .packages-section {
-  padding: 0 575px;
+  padding: 0 500px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.faq-section {
   text-align: center;
   background-color: white;
   color: black;

@@ -65,21 +65,21 @@ const Navbar = (props) => {
           </div>
           <div className="hidden lg:block col-span-1 flex text-gray-600 mt-1">
             <span
-              className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
-              onClick={(e) => window.location = "http://127.0.0.1:5500/frontent/HTML/index.html"}
+              className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
+              onClick={(e) => window.location = "/"}
             >
               Home
             </span>
             <span onClick={(e) => history.push("/packages")}
-                            className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
                           >
                            Packages </span>
             <span onClick={(e) => history.push("/contact")}
-                            className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
                           >
                            Contact </span>
             <span onClick={(e) => history.push("/about")}
-                            className="hover:bg-orange-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-orange-800 cursor-pointer"
+                            className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
                           >
                            About </span>
           </div>
@@ -89,13 +89,13 @@ const Navbar = (props) => {
             {/*  WishList Page Button */}
             <div
               onClick={(e) => history.push("/wish-list")}
-              className="hover:bg-orange-200 rounded-lg px-2 py-2 cursor-pointer"
+              className="hover:bg-gray-200 rounded-lg px-2 py-2 cursor-pointer"
               title="Wishlist"
             >
               <svg
                 className={`${
                   location.pathname === "/wish-list"
-                    ? "fill-current text-orange-800"
+                    ? "fill-current text-gray-800"
                     : ""
                 } w-8 h-8 text-gray-600 cursor-pointer`}
                 fill="none"
@@ -114,7 +114,7 @@ const Navbar = (props) => {
             {localStorage.getItem("jwt") ? (
               <Fragment>
                 <div
-                  className="userDropdownBtn hover:bg-orange-200 px-2 py-2 rounded-lg relative"
+                  className="userDropdownBtn hover:bg-gray-200 px-2 py-2 rounded-lg relative"
                   title="Logout"
                 >
                   <svg
@@ -131,7 +131,7 @@ const Navbar = (props) => {
                       d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  <div className="userDropdown absolute right-0 mt-1 bg-orange-200 rounded">
+                  <div className="userDropdown absolute right-0 mt-1 bg-gray-200 rounded">
                     {!isAdmin() ? (
                       <Fragment>
                         <li className="flex flex-col text-gray-700 w-48 shadow-lg">
@@ -377,15 +377,21 @@ const Navbar = (props) => {
             </span>
             <span
               className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
-              onClick={(e) => history.push("/blog")}
+              onClick={(e) => history.push("/packages")}
             >
-              Blog
+              Packages
             </span>
             <span
               className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
-              onClick={(e) => history.push("/contact-us")}
+              onClick={(e) => history.push("/contact")}
             >
-              Contact us
+              Contact
+            </span>
+            <span
+              className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
+              onClick={(e) => history.push("/about")}
+            >
+              About
             </span>
           </div>
         </div>
