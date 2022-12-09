@@ -13,28 +13,28 @@ export default function Carousel() {
         src={require('./images/california.jpg')}
         alt='...'
       >
-        <h5>California</h5>
-        <p></p>
+        <h5><b>California</b></h5>
+        <p><b>Palm Springs ~ Santa Monica ~ San Jose</b></p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
+        src={require('./images/Newyork.jpg')}
         alt='...'
       >
-        <h5>New York</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5><b>New York</b></h5>
+        <p><b>Central Park ~ Statue of Liberty ~ Times Square</b></p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={3}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
+        src={require('./images/Hawaii.jpg')}
         alt='...'
       >
-        <h5>Hawaii</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5><b>Hawaii</b></h5>
+        <p><b>Maui ~ Honolulu ~ Lahaina</b></p>
       </MDBCarouselItem>
     </MDBCarousel>
   );
