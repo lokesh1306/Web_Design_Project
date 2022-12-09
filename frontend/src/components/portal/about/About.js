@@ -43,7 +43,7 @@ const AboutComponent = (props) => {
 
   <div className="column">
     <div className="card">
-    <img src={require('./image2.jpeg')} alt="Mike" />
+    <img src={require('./image3.jpeg')} alt="Mike" />
       <div className="container">
       <br />
         <h2>John Doe</h2>
