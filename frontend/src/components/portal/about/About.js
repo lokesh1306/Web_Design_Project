@@ -34,7 +34,7 @@ const AboutComponent = (props) => {
         <br />
         <h2>Mike Ross</h2>
         <p className="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>Mike Ross breathes art. A person who is deep rooted in psychology and business, he knows the value of art to mankind and technology alike. </p>
         <p></p>
         <p align="center"><button className="button"><a href="mailto:email@example.com">Contact</a></button></p>
       </div>
