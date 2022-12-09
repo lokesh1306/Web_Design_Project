@@ -14,7 +14,7 @@ const HomeComponent = () => {
       <Carousel />
       <br />
      <h3 className="mb-4"><center>Our Packages</center></h3>
-      <section className="m-4 md:mx-8 md:my-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <section className="rm-4 md:mx-8 md:my-6 grid grid-cols-2 md:grid-cols-3 lg:gid-cols-4">
         <SingleProduct />
       </section>  
       <section className="Accordian">
