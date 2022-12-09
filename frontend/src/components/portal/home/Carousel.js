@@ -10,10 +10,10 @@ export default function Carousel() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
+        src='"https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4"'
         alt='...'
       >
-        <h5>First slide label</h5>
+        <h5>California</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </MDBCarouselItem>
 
@@ -23,7 +23,7 @@ export default function Carousel() {
         src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
         alt='...'
       >
-        <h5>Second slide label</h5>
+        <h5>New York</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </MDBCarouselItem>
 
@@ -33,7 +33,7 @@ export default function Carousel() {
         src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
         alt='...'
       >
-        <h5>Third slide label</h5>
+        <h5>Hawaii</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </MDBCarouselItem>
     </MDBCarousel>
