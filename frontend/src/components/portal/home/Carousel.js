@@ -10,11 +10,11 @@ export default function Carousel() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
-        src='"https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4"'
+        src={require('./images/california.jpg')}
         alt='...'
       >
         <h5>California</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <p></p>
       </MDBCarouselItem>
 
       <MDBCarouselItem
