@@ -14,9 +14,7 @@ export default function App() {
         <MDBCol md="10" xl="8" className="text-center">
           <h3 className="mb-4">Testimonials</h3>
           <p className="mb-4 pb-2 mb-md-5 pb-md-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+          Our clients come from very different walks of life and age groups. We’re delighted that many come back to travel on our escorted historical tours and small group cruises again and again. We feel that their testimonials describe who we are and what we do far better than we ever could. Here’s a small selection.
           </p>
         </MDBCol>
       </MDBRow>
@@ -34,8 +32,7 @@ export default function App() {
           <h6 className="text-primary mb-3">Web Developer</h6>
           <p className="px-xl-3">
             <MDBIcon fas icon="quote-left" className="pe-2" />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-            id officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+            The holiday of a life time - our gulet adventure in the Dodecanese Greek Islands was without a doubt our favourite family trip. 
           </p>
           <MDBTypography
             listUnStyled
@@ -76,8 +73,7 @@ export default function App() {
           <h6 className="text-primary mb-3">Graphic Designer</h6>
           <p className="px-xl-3">
             <MDBIcon fas icon="quote-left" className="pe-2" />
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid commodi.
+            What a wonderful experience! The two tour leaders who were archaeologists enthralled us with the history of the Islands. The food was bountiful. On the boat the meals were wholesome and delicious.
           </p>
           <MDBTypography
             listUnStyled
@@ -113,8 +109,7 @@ export default function App() {
           <h6 className="text-primary mb-3">Marketing Specialist</h6>
           <p className="px-xl-3">
             <MDBIcon fas icon="quote-left" className="pe-2" />
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti.
+            From his brochure to drop off at the airport to fly home his attention to detail and his consideration for his clients is superb.
           </p>
           <MDBTypography
             listUnStyled

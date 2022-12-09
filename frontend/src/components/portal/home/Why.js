@@ -20,7 +20,7 @@ function Why() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>Value for money</Accordion.Header>
+        <Accordion.Header>Our Belief</Accordion.Header>
         <Accordion.Body>
           Our packages provide great value. It is both cost efficient and a wonderful experience. All you have to do is sit back and enjoy your vacation.
         </Accordion.Body>
