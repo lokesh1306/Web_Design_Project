@@ -37,51 +37,50 @@ export default function App() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                Boston Travels
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              We believe that there is a better way to provide travel packages. Establised in early 2000s, we curate customised packages to people who need a breeze in their life. We are a team of 50, working tirelessly to provide you the best travel options.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Packages</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Package 1
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  Package 2
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  Package 3
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <a href='#!' className='text-reset'>
                   Laravel
                 </a>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  About Us
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Contact
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <a href='#!' className='text-reset'>
                   Orders
                 </a>
@@ -90,18 +89,18 @@ export default function App() {
                 <a href='#!' className='text-reset'>
                   Help
                 </a>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                Boston, Massachussets 02215, USA
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                contactus@bostontravels.com
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
