@@ -47,36 +47,36 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Packages</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  Package 1
+                <a href='./products/category/63936b563c96264d8767f114' className='text-reset'>
+                  Boston Packages
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Package 2
+                <a href='./products/category/639369233c96264d8767f0fd' className='text-reset'>
+                  Vacation Packages
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Package 3
+                <a href='./products/category/639367943c96264d8767f0f9' className='text-reset'>
+                   Visit Qatar 
                 </a>
               </p>
-              {/* <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
+               <p>
+                <a href='./products/category/639365f63c96264d8767f0e4' className='text-reset'>
+                  Family Packages
                 </a>
-              </p> */}
+              </p> 
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='../about' className='text-reset'>
                   About Us
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='../contact' className='text-reset'>
                   Contact
                 </a>
               </p>
