@@ -84,6 +84,7 @@ const Navbar = (props) => {
                            About </span>
           </div>
           
+          
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
             <div

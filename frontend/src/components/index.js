@@ -11,6 +11,7 @@ import {
   CheckoutPage,
   ContactForm,
   About,
+  Faq,
 } from "./portal";
 import { DashboardAdmin, Categories, Products, Orders } from "./admin";
 import { UserProfile, UserOrders, SettingUser } from "./portal/dashboardUser";
@@ -30,6 +31,7 @@ const Routes = (props) => {
         <Route exact path="/contact" component={ContactForm} />
         <Route exact path="/about" component={About} />
         <Route exact path="/packages" component={Packages} />
+        <Route exact path="/faq" component={Faq} />
         <Route exact path="/products/:id" component={ProductDetails} />
         <Route path="/privacy-policy" render={() => window.location = "http://127.0.0.1:5500/src/Travio/index.html"} />
         <Route
