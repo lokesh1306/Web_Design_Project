@@ -7,7 +7,9 @@ import AdminFooter from "../partials/AdminFooter";
 const AdminLayout = ({ children }) => {
   return (
     <Fragment>
+      <section className="flex bg-gray-100 mt-24">
       <AdminNavbar />
+      </section>
       <section className="flex bg-gray-100">
         <AdminSidebar />
         <div className="w-full md:w-11/12 h-full">
